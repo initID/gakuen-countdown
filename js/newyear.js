@@ -125,7 +125,7 @@ var interval = 10000;
 
 $(document).ready(function() {
 	var currentDate = new Date();
-	var futureDate = new Date(Date.UTC(2024, 3, 10, 11, 0, 0));
+	var futureDate = new Date(Date.UTC(2024, 5, 10, 11, 0, 0));
 	var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
 
 	if (diff <= 0) {
